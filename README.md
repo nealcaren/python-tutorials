@@ -10,6 +10,7 @@ __Getting Set Up__
 
 
 __Entire Analysis__
+One of the great things about IPython Notebooks is that you can present code and context in the same document.
 
 * [Diving into Open Data with IPython Notebook & Pandas](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jvns/talks/master/pycon2014/bike_paths.ipynb?create=1) by [Julia Evans](http://twitter.com/b0rk). Do people bike when it rains using Pandas.
 
