@@ -11,8 +11,6 @@ __Getting Set Up__
 
 __Entire Analysis__
 
-One of the great things about IPython Notebooks is that you can present code and context in the same document.
-
 * [Diving into Open Data with IPython Notebook & Pandas](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jvns/talks/master/pycon2014/bike_paths.ipynb?create=1) by [Julia Evans](http://twitter.com/b0rk). Do people bike when it rains using Pandas.
 
 * [The Need for Openness in Data Journalism](http://nbviewer.ipython.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb) by [Brian Keegan](https://twitter.com/bkeegan)  Reanlysis of a 538 post on the Bechdel Test and films using Pandas and statsmodels. I had a problem with the BeautifulSoup part.
@@ -66,12 +64,18 @@ __Regression__
 * [Multiple Regression using Statsmodels](http://nbviewer.ipython.org/urls/s3.amazonaws.com/datarobotblog/notebooks/multiple_regression_in_python.ipynb) by by [DataRobot](http://www.datarobot.com/blog/). The stuff you already know how to do but this time in Python.
 * [Gradient Boosted Regression Trees](http://nbviewer.ipython.org/urls/s3.amazonaws.com/datarobotblog/notebooks/gbm-tutorial.ipynb) by [DataRobot](http://www.datarobot.com/blog/). Scikit-learn analysis of a continuous outcome measure.
 
-__Model Selection__
+__Model/Feature Selection__
+
+Picking which model or variables to use often happens offstage in social science research. It doesn't have to be that way, though.
 
 * [Machine Learning with Scikit-Learn: Validation and Model Selection](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/04_validation.ipynb) by [Jake Vanderplas](http://www.vanderplas.com/). Scikit-learn
 * [Testing and Validation in Scikit-Learn](http://nbviewer.ipython.org/gist/sarguido/8969894) by [Sarah Guido](https://twitter.com/sarah_guido)
+* [Feature](http://nbviewer.ipython.org/github/treycausey/thespread/blob/master/notebooks/feature_selection.ipynb?create=1) by [Trey Causey](https://twitter.com/treycausey). Minimally commented but clear code for using Pandas and scikit-learn to find most important features
+* .
 
 __Networks__
+
+[NetworkX](http://networkx.github.io) and [igraph](http://igraph.sourceforge.net) are both fairly powerful tools for network analysis. I don't think you can use them for regression analysis, but  you can use them to do things like compute centrality measures and make pretty pictures. You can also use Python to create/manipulate your network data for analysis/display elsewhere. 
 
 * [Citation Network Analysis](http://nbviewer.ipython.org/github/twneale/citation-network-analysis/blob/master/Citation%20Network%20Analysis.ipynb) by [Thom Neale](https://github.com/twneale). 
 * [Six Degrees of Kevin Bacon](http://graphlab.com/learn/notebooks/graph_analytics_movies.html) by Brian Kent. Using NetworkX.
@@ -79,7 +83,11 @@ __Networks__
 
 __Plotting__
 
+[matplotlib](http://matplotlib.org) is the default plotting library for data scientists and plays well with pandas. [seaborn](http://www.stanford.edu/~mwaskom/software/seaborn/) makes it prettier. Other programs, like [Plotly](https://plot.ly), [bokeh](http://bokeh.pydata.org),[d3py](https://github.com/mikedewar/d3py), or [V
+incent](http://vincent.readthedocs.org/en/latest/) are also worth trying out, especially for putting stuff together on the web.
+
 * [Plotting and Visualization](http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb) by [Chris Fonnesbeck](http://stronginference.com). Great overview of using matplotlib and pandas.
+* [Exploratory graphs](http://nbviewer.ipython.org/github/herrfz/dataanalysis/blob/master/week3/exploratory_graphs.ipynb) by [herrfz](https://github.com/herrfz) Basic Pandas plots. 
 * [Computational data visualization in Python](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/olgabot/pycon2014_dataviz/master/pycon2014_dataviz.ipynb) by [Olga Botvinnik](https://twitter.com/olgabot).  using Seaborn to make pretty picutres from your numbers.
 * [A Gallery of Statistical Graphs in Matplotlib](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_03_statistical_graphs.ipynb) by [Chris Beaumont](https://github.com/ChrisBeaumont). Pretty and practical examples.
 * [Nine matplotlib figures made in Plotly](http://nbviewer.ipython.org/gist/msund/10016970). plotly. 
@@ -89,4 +97,7 @@ __Plotting__
 
 __Images as data__
 
-* [Image Processing with scikit-image](http://blog.yhathq.com/posts/image-processing-with-scikit-image.html) by [Eric Chiang](https://github.com/EricChiang)`
+The great frontier for social scientists. 
+
+
+* [Image Processing with scikit-image](http://blog.yhathq.com/posts/image-processing-with-scikit-image.html) by [Eric Chiang](https://github.com/EricChiang)
