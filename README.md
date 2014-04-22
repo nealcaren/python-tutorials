@@ -85,13 +85,13 @@ __Networks__
 
 __Plotting__
 
-[matplotlib](http://matplotlib.org) is the default plotting library for data scientists and plays well with pandas. [seaborn](http://www.stanford.edu/~mwaskom/software/seaborn/) makes it prettier. Other programs, like [Plotly](https://plot.ly), [bokeh](http://bokeh.pydata.org),[d3py](https://github.com/mikedewar/d3py), or [V
-incent](http://vincent.readthedocs.org/en/latest/) are also worth trying out, especially for putting stuff together on the web.
+[matplotlib](http://matplotlib.org) is the default plotting library for data scientists and plays well with pandas. [seaborn](http://www.stanford.edu/~mwaskom/software/seaborn/) makes it prettier. Other programs, like [mpld3](http://mpld3.github.io), [Plotly](https://plot.ly), [bokeh](http://bokeh.pydata.org), or [Vincent](http://vincent.readthedocs.org/en/latest/) are also worth trying out, especially for putting stuff together on the web.
 
 * [Plotting and Visualization](http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb) by [Chris Fonnesbeck](http://stronginference.com). Great overview of using matplotlib and pandas.
 * [Exploratory graphs](http://nbviewer.ipython.org/github/herrfz/dataanalysis/blob/master/week3/exploratory_graphs.ipynb) by [herrfz](https://github.com/herrfz) Basic Pandas plots. 
-* [Computational data visualization in Python](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/olgabot/pycon2014_dataviz/master/pycon2014_dataviz.ipynb) by [Olga Botvinnik](https://twitter.com/olgabot).  using Seaborn to make pretty picutres from your numbers.
+* [Computational data visualization in Python](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/olgabot/pycon2014_dataviz/master/pycon2014_dataviz.ipynb) by [Olga Botvinnik](https://twitter.com/olgabot).  Using Seaborn to make pretty picutres from your numbers.
 * [A Gallery of Statistical Graphs in Matplotlib](http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_03_statistical_graphs.ipynb) by [Chris Beaumont](https://github.com/ChrisBeaumont). Pretty and practical examples.
+* [Demo of mpld3](http://nbviewer.ipython.org/url/mpld3.github.io/_downloads/mpld3_demo.ipynb) by [Jake Vanderplas](http://www.vanderplas.com/). Interested in making interactive graphics? This is where I would start. Turns your  atplotlib code into d3 figures.
 * [Nine matplotlib figures made in Plotly](http://nbviewer.ipython.org/gist/msund/10016970). plotly. 
 & [D3 in Python](http://nbviewer.ipython.org/gist/z-m-k/4484816/ipyD3sample.ipynb) by [z-m-k](https://github.com/z-m-k). Fairly complicated worked examples.
 * [Vincent](http://nbviewer.ipython.org/github/wrobstory/vincent/blob/master/examples/Vincent_Examples.ipynb) by [Roby Story](https://github.com/wrobstory). Basics of plotting with 
