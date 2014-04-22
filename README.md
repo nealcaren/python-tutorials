@@ -21,6 +21,9 @@ __Entire Analysis__
 
 * [Heat and Violence in Chicago](http://nbviewer.ipython.org/github/brianckeegan/WeatherCrime/blob/master/Analysis.ipynb?create=1) by [Brian Keegan](https://twitter.com/bkeegan).  Walkthrough of an impressive analysis of crime trends.
 
+* [Powerpoetry Analysis](http://nbviewer.ipython.org/github/SumAllFoundation/powerpoetry/blob/master/Powerpoetry%20Analysis.ipynb) by [SumAll Foundation](http://sumall.org). Analysis of how indvidual poetry styles change over time using pandas.
+
+
 __Using APIs__
 
 * [Mining Twitter: Exploring Trending Topics, Discovering What People Are Talking About, and More](http://nbviewer.ipython.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/blob/master/ipynb/Chapter%201%20-%20Mining%20Twitter.ipynb) by [Matthew Russell](http://twitter.com/ptwobrussell
