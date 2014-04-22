@@ -51,6 +51,8 @@ __Introduction to data analysis__
 
 __Classification__
 
+Social scientists call it logistic regression.
+
 * [Predicting NFL Field Goal Percentages](http://nbviewer.ipython.org/github/jgbos/iPython-Notebooks/blob/master/Cold%20Weather%20FG.ipynb) by [Justin Goodwin](https://twitter.com/jgbos). Pandas and scikit-learn Random Forests Classifer.
 * [Basic Random Forest Model](http://nbviewer.ipython.org/github/treycausey/thespread/blob/master/notebooks/basic_random_forest_wp_model.ipynb?create=1) by [Trey Causey](https://twitter.com/treycausey). Minimally commented but clear code for using Pandas and scikit-learn to analyze in-game NFL win probabilities.
 * [Supervised Learning In-Depth: SVMs and Random Forests](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/04_supervised_in_depth.ipynb) by [Jake Vanderplas](http://www.vanderplas.com/)
