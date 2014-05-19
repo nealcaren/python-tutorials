@@ -86,6 +86,8 @@ __Networks__
 * [Six Degrees of Kevin Bacon](http://graphlab.com/learn/notebooks/graph_analytics_movies.html) by Brian Kent. Using NetworkX.
 * [Analysis of Twitter stream data with the IPython Notebook](http://nbviewer.ipython.org/github/ellisonbg/talk-strata2013/blob/master/TwitterNetworkX.ipynb) by [Brian Granger](https://twitter.com/ellisonbg). Words as nodes in a network analysis of Twitter data. 
 
+* [Building a Foursquare Location Graph](http://nbviewer.ipython.org/github/furukama/IPythonNotebooks/blob/master/Building%20a%20Foursquare%20Location%20Graph.ipynb) by [Benedikt Koehler](https://twitter.com/furukama). Using the FourSquare API to find related venues and then graph them as a network using NetworkX.
+* 
 __Plotting__
 
 [matplotlib](http://matplotlib.org) is the default plotting library for data scientists and plays well with pandas. [seaborn](http://www.stanford.edu/~mwaskom/software/seaborn/) makes it prettier. Other programs, like [mpld3](http://mpld3.github.io), [Plotly](https://plot.ly), [bokeh](http://bokeh.pydata.org), or [Vincent](http://vincent.readthedocs.org/en/latest/) are also worth trying out, especially for putting stuff together on the web.
