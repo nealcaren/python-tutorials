@@ -1,18 +1,17 @@
 ### Computational Social Science in Python
 
 
-I’ve compiled a list of Python tutorials and annotated analyses. I've tried to list pages that are accessible to social scientists with little background in Python and/or machine learning. The list includes the packages that I've found most useful, such as Pandas and scikit-learn learn. Many are IPython Notebooks, so they can be downloaded and run locally.
+I’ve compiled a list of Python tutorials and annotated analyses. I've tried to list pages that are accessible to social scientists with little background in Python and/or machine learning. The list includes the packages that I've found most useful, such as Pandas and scikit-learn learn. Many are IPython Notebooks, so they can be downloaded and run locally. 
 
-__Getting Set Up__
-
-* [An Introduction to scikit-learn: Machine Learning in Python](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/00_Preliminaries.ipynb) by [Jake Vanderplas](http://www.vanderplas.com/)
+If you are totally new to Python, I would recommend installing Continuum's [Anacoda](https://store.continuum.io/cshop/anaconda/) Python distribution. It works on Macs and Windows, makes using IPython notebooks trivial, and solves most of the problems associated with installing various packages. 
 
 
 __Entire Analysis__
+These are walk throughs of complete data analysis projects, including data collection/importation, management and analysis.
 
 * [Diving into Open Data with IPython Notebook & Pandas](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jvns/talks/master/pycon2014/bike_paths.ipynb?create=1) by [Julia Evans](http://twitter.com/b0rk). An analysis of whether people bike when it rains using Pandas.
 
-* [The Need for Openness in Data Journalism](http://nbviewer.ipython.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb) by [Brian Keegan](https://twitter.com/bkeegan)  Reanalysis of a 538 posts on the Bechdel Test and films using Pandas and statsmodels. When I ran this one, I had an issue with the BeautifulSoup part.
+* [The Need for Openness in Data Journalism](http://nbviewer.ipython.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb) by [Brian Keegan](https://twitter.com/bkeegan)  Reanalysis of a 538 posts on the Bechdel Test and films using Pandas and statsmodels. When I ran this one, I had an issue with the BeautifulSoup part.u
 
 * [Predicting customer churn with scikit-learn](http://blog.yhathq.com/posts/predicting-customer-churn-with-sklearn.html) by [Eric Chiang](https://github.com/EricChiang). I don't care about customer churn, but it's a well-written walkthrough of machine learning classification.
 
@@ -35,9 +34,10 @@ __Web Scraping__
 
 __Data Management__
 
-* [College Basketball three pointers](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jgbos/IPython-Notebooks/master/3-pointers%20after%20offensive%20rebounds.ipynb?create=1) by [Justin Goodwin](https://twitter.com/jgbos).
-Pandas. Uncommented.
+
 * [Aggregating & plotting time series in python](http://blog.yhathq.com/posts/aggregating-and-plotting-time-series-in-python.html) by yhatq. Basics of managing time series data in Pandas.
+* [College Basketball three pointers](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jgbos/IPython-Notebooks/master/3-pointers%20after%20offensive%20rebounds.ipynb?create=1) by [Justin Goodwin](https://twitter.com/jgbos).
+Only lightly commented guide to analyzing basektaball stats. I'm pretty sure you can download the data yourself using the code in this [gist](https://gist.github.com/gjreda/7175267/).
 * [Pandas cookbook](https://github.com/jvns/pandas-cookbook/blob/master/README.md) by [Julia Evans](https://twitter.com/b0rk). Lots of great examples for handling data in Pandas.
 
 __Text Management__
@@ -47,15 +47,15 @@ __Text Management__
 
 __Introduction to data analysis__
 
-* [Basic principles of machine learning](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/03_basic_principles.ipynb)  by [Jake Vanderplas](http://www.vanderplas.com/) Scikit-learn
-* [Introduction to Scikit-Learn](http://nbviewer.ipython.org/github/tdhopper/Research-Triangle-Analysts--Intro-to-scikit-learn/blob/master/Intro%20to%20Scikit-Learn.ipynb) by [Tim Hopper](https://twitter.com/tdhopper).
-* [Using Python to see how the Times writes about men and women](http://nbviewer.ipython.org/gist/nealcaren/5105037) by [me](https://twitter.com/haphazardsoc). Basics of using work counts.
+* [Basic principles of machine learning](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/03_basic_principles.ipynb)  by [Jake Vanderplas](http://www.vanderplas.com/) An introduction to [scikit-learn](http://scikit-learn.org/stable/), the most popular machine learning library in Python. It's really great. 
+* [Introduction to Scikit-Learn](http://nbviewer.ipython.org/github/tdhopper/Research-Triangle-Analysts--Intro-to-scikit-learn/blob/master/Intro%20to%20Scikit-Learn.ipynb) by [Tim Hopper](https://twitter.com/tdhopper). This introduciton assumes a modest level of familaritiy with Python.
+* [Using Python to see how the Times writes about men and women](http://nbviewer.ipython.org/gist/nealcaren/5105037) by [me](https://twitter.com/haphazardsoc). Basics of using work counts. 
 
 __Classification__
 
 Social scientists call it logistic regression.
 
-* [Predicting NFL Field Goal Percentages](http://nbviewer.ipython.org/github/jgbos/iPython-Notebooks/blob/master/Cold%20Weather%20FG.ipynb) by [Justin Goodwin](https://twitter.com/jgbos). Pandas and scikit-learn Random Forests classifier.dat
+* [Predicting NFL Field Goal Percentages](http://nbviewer.ipython.org/github/jgbos/iPython-Notebooks/blob/master/Cold%20Weather%20FG.ipynb) by [Justin Goodwin](https://twitter.com/jgbos). Using Pandas and the scikit-learn Random Forests classifier.
 * [Basic Random Forest Model](http://nbviewer.ipython.org/github/treycausey/thespread/blob/master/notebooks/basic_random_forest_wp_model.ipynb?create=1) by [Trey Causey](https://twitter.com/treycausey). Minimally commented but clear code for using Pandas and scikit-learn to analyze in-game NFL win probabilities.
 * [Supervised Learning In-Depth: SVMs and Random Forests](http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/04_supervised_in_depth.ipynb) by [Jake Vanderplas](http://www.vanderplas.com/)
 
