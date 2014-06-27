@@ -21,6 +21,7 @@ These are walk throughs of complete data analysis projects, including data colle
 
 * [Powerpoetry Analysis](http://nbviewer.ipython.org/github/SumAllFoundation/powerpoetry/blob/master/Powerpoetry%20Analysis.ipynb) by [SumAll Foundation](http://sumall.org). Analysis of how individual poetry styles change over time using pandas.
 
+* [World Cup Learning](http://nbviewer.ipython.org/github/fisadev/world_cup_learning/blob/master/learn.ipynb) by [Juan Pedro Fisanotti](https://twitter.com/fisadev). Predict winners of World Cup soccer matches using the [PyBrain](http://pybrain.org/) library for machine learning. Data is also on [Github](https://github.com/fisadev/world_cup_learning). 
 
 __Using APIs__
 
