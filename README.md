@@ -1,6 +1,3 @@
-### Computational Social Science in Python
-
-
 **Neal Caren** - University of North Carolina, Chapel Hill
 [mail](mailto:neal.caren@unc.edu)
 [web](http://nealcaren.web.unc.edu)
