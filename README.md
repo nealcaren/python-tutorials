@@ -6,8 +6,9 @@ I’ve compiled a list of Python tutorials and annotated analyses. I've tried to
 If you are totally new to Python, I would recommend installing Continuum's [Anacoda](https://store.continuum.io/cshop/anaconda/) Python distribution. It works on Macs and Windows, makes using IPython notebooks trivial, and solves most of the problems associated with installing various packages. 
 
 
-__Entire Analysis__
-These are walk throughs of complete data analysis projects, including data collection/importation, management and analysis.
+__Walkthroughs__
+
+One of the great things about IPython notebooks is that they can easily blend text and code. This has led to a sharp increase in the number of data analysis projects where people carefully explain an entire research project, including data collection/importation, management and analysis. The code is right there, and you can usually run it and/or modify yourself. Looking at a few of these is an excellent introduction to what people are currently doing, even if you don't understand everything.
 
 * [Diving into Open Data with IPython Notebook & Pandas](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jvns/talks/master/pycon2014/bike_paths.ipynb?create=1) by [Julia Evans](http://twitter.com/b0rk). An analysis of whether people bike when it rains using Pandas.
 
@@ -25,16 +26,21 @@ These are walk throughs of complete data analysis projects, including data colle
 
 __Using APIs__
 
+When a service wants you to use their data, they often provide it through an API. There are often specific Python libraries for accessing popularing, complex and/or APIs requiring authentication. Otherwises, [requests](http://docs.python-requests.org/en/latest/) is quite useful. 
+
 * [Mining Twitter: Exploring Trending Topics, Discovering What People Are Talking About, and More](http://nbviewer.ipython.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/blob/master/ipynb/Chapter%201%20-%20Mining%20Twitter.ipynb) by [Matthew Russell](http://twitter.com/ptwobrussell
 [http://newcoder.io/api/)
 * [Sushi Bars and Buffets: Measuring local culture with the Yelp API](http://nealcaren.github.io/sushi_bars.html) by [me](https://twitter.com/haphazardsoc). Using the Yelp API to gather data about local food cultures and how they vary by SES.
 
 __Web Scraping__
 
-* [Web scraping in Python](http://nbviewer.ipython.org/url/www.unc.edu/%7Encaren/Lax-1.ipynb.json) by [me](https://twitter.com/haphazardsoc). Grabbing lacrosse scores and turning  them into a CSV file.
+When they don't want to give you the data, you can sometimes grab it anyway by visiting one or more web pages and then extracting the parts you need. [requests](http://docs.python-requests.org/en/latest/) is a useful library for accessing web pages, and [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a popular choice for pulling out the good stuff. If you don't know any HTML, [regular expressions](https://docs.python.org/2/library/re.html) can sometimes work well too. 
+
+* [Intro to Beautiful Soup](http://programminghistorian.org/lessons/intro-to-beautiful-soup) by [Jeri Wieringa](http://jerielizabeth.github.io/). Turning a table on a website into a CSV file. Part of the useful [Programming Historian](http://programminghistorian.org/) set of tutorials.
+* [Web scraping in Python](http://nbviewer.ipython.org/url/www.unc.edu/%7Encaren/Lax-1.ipynb.json) by [me](https://twitter.com/haphazardsoc). Grabbing lacrosse scores and turning them into a CSV file.
 
 __Data Management__
-
+There's a lot of data management in the Walk Thoru
 
 * [Aggregating & plotting time series in python](http://blog.yhathq.com/posts/aggregating-and-plotting-time-series-in-python.html) by yhatq. Basics of managing time series data in Pandas.
 * [College Basketball three pointers](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jgbos/IPython-Notebooks/master/3-pointers%20after%20offensive%20rebounds.ipynb?create=1) by [Justin Goodwin](https://twitter.com/jgbos).
