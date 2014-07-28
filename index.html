@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="utf-8" />
-<title>css</title>
+<title>index</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -1681,224 +1681,141 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="learning-python-for-social-scientists">Learning Python for Social Scientists</h3>
-<p><strong>Neal Caren</strong> - University of North Carolina, Chapel Hill <script type="text/javascript">
-<!--
-h='&#x75;&#110;&#x63;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#110;&#x65;&#x61;&#108;&#46;&#x63;&#x61;&#114;&#x65;&#110;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'mail'+'<\/'+'a'+'>');
-// -->
-</script><noscript>&#x6d;&#x61;&#x69;&#108;&#32;&#40;&#110;&#x65;&#x61;&#108;&#46;&#x63;&#x61;&#114;&#x65;&#110;&#32;&#x61;&#116;&#32;&#x75;&#110;&#x63;&#32;&#100;&#x6f;&#116;&#32;&#x65;&#100;&#x75;&#x29;</noscript> <a href="http://nealcaren.web.unc.edu">web</a> <a href="http://twitter.com/HaphazardSoc">twitter</a> <a href="http://scholar.google.com/citations?user=cy0u16kAAAAJ&amp;hl=en">scholar</a></p>
-<p>I’ve compiled a list of Python tutorials and annotated analyses. I've tried to list pages that are accessible to social scientists with little background in Python and/or machine learning. The list includes the packages that I've found most useful, such as Pandas and scikit-learn. Many are IPython Notebooks, so they can be downloaded and run locally.</p>
-<p>If you are totally new to Python, I would recommend installing Continuum's <a href="https://store.continuum.io/cshop/anaconda/">Anacoda</a> Python distribution. It works on Macs and Windows, makes using IPython notebooks trivial, and solves most of the problems associated with installing various packages.</p>
-<p>If you know of anything I've left out or if links go dead, please let <a href="http://twitter.com/HaphazardSoc">me</a> <script type="text/javascript">
-<!--
-h='&#x75;&#110;&#x63;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#110;&#x65;&#x61;&#108;&#46;&#x63;&#x61;&#114;&#x65;&#110;';e=n+a+h;
-document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'know'+'<\/'+'a'+'>');
-// -->
-</script><noscript>&#x6b;&#110;&#x6f;&#x77;&#32;&#40;&#110;&#x65;&#x61;&#108;&#46;&#x63;&#x61;&#114;&#x65;&#110;&#32;&#x61;&#116;&#32;&#x75;&#110;&#x63;&#32;&#100;&#x6f;&#116;&#32;&#x65;&#100;&#x75;&#x29;</noscript>.</p>
+<p><strong>Neal Caren</strong> - University of North Carolina, Chapel Hill
+<a href="mailto:neal.caren@unc.edu">mail</a>
+<a href="http://nealcaren.web.unc.edu">web</a>
+<a href="http://twitter.com/HaphazardSoc">twitter</a>
+<a href="http://scholar.google.com/citations?user=cy0u16kAAAAJ&amp;hl=en">scholar</a></p>
+<p>I’ve compiled a list of Python tutorials and annotated analyses. I&#39;ve tried to list pages that are accessible to social scientists with little background in Python and/or machine learning. The list includes the packages that I&#39;ve found most useful, such as Pandas and scikit-learn. Many are IPython Notebooks, so they can be downloaded and run locally. </p>
+<p>If you are totally new to Python, I would recommend installing Continuum&#39;s <a href="https://store.continuum.io/cshop/anaconda/">Anacoda</a> Python distribution. It works on Macs and Windows, makes using IPython notebooks trivial, and solves most of the problems associated with installing various packages. </p>
+<p>If you know of anything I&#39;ve left out or if links go dead, please let <a href="http://twitter.com/HaphazardSoc">me</a> <a href="mailto:neal.caren@unc.edu">know</a>.</p>
 <p><strong>Walkthroughs</strong></p>
-<p>One of the great things about IPython notebooks is that they can easily blend text and code. This has led to a sharp increase in the number of data analysis projects where people carefully explain an entire research project, including data collection/importation, management and analysis. The code is right there, and you can usually run it and/or modify yourself. Looking at a few of these is an excellent introduction to what people are currently doing, even if you don't understand everything.</p>
+<p>One of the great things about IPython notebooks is that they can easily blend text and code. This has led to a sharp increase in the number of data analysis projects where people carefully explain an entire research project, including data collection/importation, management and analysis. The code is right there, and you can usually run it and/or modify yourself. Looking at a few of these is an excellent introduction to what people are currently doing, even if you don&#39;t understand everything.</p>
 <ul>
-<li><p><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jvns/talks/master/pycon2014/bike_paths.ipynb?create=1">Diving into Open Data with IPython Notebook &amp; Pandas</a> by <a href="http://twitter.com/b0rk">Julia Evans</a>. An analysis of whether people bike when it rains using Pandas.</p></li>
-<li><p><a href="http://nbviewer.ipython.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb">The Need for Openness in Data Journalism</a> by <a href="https://twitter.com/bkeegan">Brian Keegan</a> Reanalysis of a 538 posts on the Bechdel Test and films using Pandas and statsmodels. When I ran this one, I had an issue with the BeautifulSoup part.u</p></li>
-<li><p><a href="http://blog.yhathq.com/posts/predicting-customer-churn-with-sklearn.html">Predicting customer churn with scikit-learn</a> by <a href="https://github.com/EricChiang">Eric Chiang</a>. I don't care about customer churn, but it's a well-written walkthrough of machine learning classification.</p></li>
-<li><p><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jseabold/538model/master/silver_model.ipynb">538 Model</a> by <a href="https://twitter.com/jseabold">Skipper Seabold</a>. Recreation of the classic 538 prediction model using Pandas.</p></li>
-<li><p><a href="http://nbviewer.ipython.org/github/brianckeegan/WeatherCrime/blob/master/Analysis.ipynb?create=1">Heat and Violence in Chicago</a> by <a href="https://twitter.com/bkeegan">Brian Keegan</a>. Walkthrough of an impressive analysis of crime trends.</p></li>
-<li><p><a href="http://nbviewer.ipython.org/github/SumAllFoundation/powerpoetry/blob/master/Powerpoetry%20Analysis.ipynb">Powerpoetry Analysis</a> by <a href="http://sumall.org">SumAll Foundation</a>. Analysis of how individual poetry styles change over time using pandas.</p></li>
-<li><p><a href="http://nbviewer.ipython.org/github/fisadev/world_cup_learning/blob/master/learn.ipynb">World Cup Learning</a> by <a href="https://twitter.com/fisadev">Juan Pedro Fisanotti</a>. Predict winners of World Cup soccer matches using the <a href="http://pybrain.org/">PyBrain</a> library for machine learning. Data is also on <a href="https://github.com/fisadev/world_cup_learning">Github</a>.</p></li>
-<li><a href="http://jakevdp.github.io/blog/2014/06/10/is-seattle-really-seeing-an-uptick-in-cycling/">Is Seattle Really Seeing an Uptick In Cycling?</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. Yes. An excellent time-series analysis.<br /></li>
-<li><a href="http://nbviewer.ipython.org/github/GoogleCloudPlatform/ipython-soccer-predictions/blob/master/predict/wc-final.ipynb">Predicting the World Cup with the Google Cloud Platform</a> by <a href="https://github.com/jtigani">Jordan Tigani</a>. Soccer predictions. 99% of this doesn't have anything to do with the Google Cloud Platform.</li>
-<li><a href="http://nbviewer.ipython.org/github/djv/world_economic_center/blob/master/map.ipynb">Finding the World's Economic Center of Gravity</a> by <a href="https://twitter.com/djvelkov">Daniel Velkov</a>. Using pandas to find and plot the coordinates of the GDP-weighted center of the world by year.</li>
-<li><p><a href="http://nbviewer.ipython.org/github/rosariomgomez/fashion/blob/master/pinterest/pinterest_analysis.ipynb">Pinterest Analysis about the NYFW Fall 2014</a> by <a href="http://www.rosariomgomez.me">Rosario Gomez</a>. Sraping, cleaning and descriptives. Nicely demonstrates how to store data in a Mongodb database. There is also a <a href="http://www.rosariomgomez.me/nyfwii-pinterest-analysis/">fancier version</a> of the analysis.</p></li>
+<li><p><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jvns/talks/master/pycon2014/bike_paths.ipynb?create=1">Diving into Open Data with IPython Notebook &amp; Pandas</a> by <a href="http://twitter.com/b0rk">Julia Evans</a>. An analysis of whether people bike when it rains using Pandas.</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/brianckeegan/Bechdel/blob/master/Bechdel_test.ipynb">The Need for Openness in Data Journalism</a> by <a href="https://twitter.com/bkeegan">Brian Keegan</a>  Reanalysis of a 538 posts on the Bechdel Test and films using Pandas and statsmodels. When I ran this one, I had an issue with the BeautifulSoup part.u</p>
+</li>
+<li><p><a href="http://blog.yhathq.com/posts/predicting-customer-churn-with-sklearn.html">Predicting customer churn with scikit-learn</a> by <a href="https://github.com/EricChiang">Eric Chiang</a>. I don&#39;t care about customer churn, but it&#39;s a well-written walkthrough of machine learning classification.</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jseabold/538model/master/silver_model.ipynb">538 Model</a> by <a href="https://twitter.com/jseabold">Skipper Seabold</a>. Recreation of the classic 538 prediction model using Pandas.</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/brianckeegan/WeatherCrime/blob/master/Analysis.ipynb?create=1">Heat and Violence in Chicago</a> by <a href="https://twitter.com/bkeegan">Brian Keegan</a>.  Walkthrough of an impressive analysis of crime trends.</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/SumAllFoundation/powerpoetry/blob/master/Powerpoetry%20Analysis.ipynb">Powerpoetry Analysis</a> by <a href="http://sumall.org">SumAll Foundation</a>. Analysis of how individual poetry styles change over time using pandas.</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/fisadev/world_cup_learning/blob/master/learn.ipynb">World Cup Learning</a> by <a href="https://twitter.com/fisadev">Juan Pedro Fisanotti</a>. Predict winners of World Cup soccer matches using the <a href="http://pybrain.org/">PyBrain</a> library for machine learning. Data is also on <a href="https://github.com/fisadev/world_cup_learning">Github</a>. </p>
+</li>
+<li><p><a href="http://jakevdp.github.io/blog/2014/06/10/is-seattle-really-seeing-an-uptick-in-cycling/">Is Seattle Really Seeing an Uptick In Cycling?</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. Yes. An excellent time-series analysis.  </p>
+</li>
+<li><a href="http://nbviewer.ipython.org/github/GoogleCloudPlatform/ipython-soccer-predictions/blob/master/predict/wc-final.ipynb">Predicting the World Cup with the Google Cloud Platform</a> by <a href="https://github.com/jtigani">Jordan Tigani</a>. Soccer predictions. 99% of this doesn&#39;t have anything to do with the Google Cloud Platform.</li>
+<li><a href="http://nbviewer.ipython.org/github/djv/world_economic_center/blob/master/map.ipynb">Finding the World&#39;s Economic Center of Gravity</a> by <a href="https://twitter.com/djvelkov">Daniel Velkov</a>. Using pandas to find and plot the coordinates of the GDP-weighted center of the world by year.</li>
+<li><a href="http://nbviewer.ipython.org/github/rosariomgomez/fashion/blob/master/pinterest/pinterest_analysis.ipynb">Pinterest Analysis about the NYFW Fall 2014</a> by <a href="http://www.rosariomgomez.me">Rosario Gomez</a>. Sraping, cleaning and descriptives. Nicely demonstrates how to store data in a Mongodb database. There is also a <a href="http://www.rosariomgomez.me/nyfwii-pinterest-analysis/">fancier version</a> of the analysis. </li>
 </ul>
 <p><strong>Using APIs</strong></p>
-<p>When a service wants you to use their data, they often provide it through an API. There are often specific Python libraries for accessing popularing, complex and/or APIs requiring authentication. Otherwises, <a href="http://docs.python-requests.org/en/latest/">requests</a> is quite useful.</p>
+<p>When a service wants you to use their data, they often provide it through an API. There are often specific Python libraries for accessing popularing, complex and/or APIs requiring authentication. Otherwises, <a href="http://docs.python-requests.org/en/latest/">requests</a> is quite useful. </p>
 <ul>
-<li><a href="http://nbviewer.ipython.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/blob/master/ipynb/Chapter%201%20-%20Mining%20Twitter.ipynb">Mining Twitter: Exploring Trending Topics, Discovering What People Are Talking About, and More</a> by <a href="http://twitter.com/ptwobrussell%20[http://newcoder.io/api/">Matthew Russell</a></li>
+<li><a href="http://nbviewer.ipython.org/github/ptwobrussell/Mining-the-Social-Web-2nd-Edition/blob/master/ipynb/Chapter%201%20-%20Mining%20Twitter.ipynb">Mining Twitter: Exploring Trending Topics, Discovering What People Are Talking About, and More</a> by <a href="http://twitter.com/ptwobrussell
+[http://newcoder.io/api/">Matthew Russell</a></li>
 <li><a href="http://blog.crisis.net/sentiment-analysis-part-1/">Sentiment Analysis</a> by <a href="https://twitter.com/chrisalbon">Chris Albon</a>. Getting data from the CrisisNET API.</li>
 <li><a href="http://nealcaren.github.io/sushi_bars.html">Sushi Bars and Buffets: Measuring local culture with the Yelp API</a> by <a href="https://twitter.com/haphazardsoc">me</a>. Using the Yelp API to gather data about local food cultures and how they vary by SES.</li>
 </ul>
 <p><strong>Web Scraping</strong></p>
-<p>When they don't want to give you the data, you can sometimes grab it anyway by visiting one or more web pages and then extracting the parts you need. <a href="http://docs.python-requests.org/en/latest/">requests</a> is a useful library for accessing web pages, and <a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> is a popular choice for pulling out the good stuff. If you don't know any HTML, <a href="https://docs.python.org/2/library/re.html">regular expressions</a> can sometimes work well too.</p>
+<p>When they don&#39;t want to give you the data, you can sometimes grab it anyway by visiting one or more web pages and then extracting the parts you need. <a href="http://docs.python-requests.org/en/latest/">requests</a> is a useful library for accessing web pages, and <a href="http://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> is a popular choice for pulling out the good stuff. If you don&#39;t know any HTML, <a href="https://docs.python.org/2/library/re.html">regular expressions</a> can sometimes work well too. </p>
 <ul>
 <li><a href="http://programminghistorian.org/lessons/intro-to-beautiful-soup">Intro to Beautiful Soup</a> by <a href="http://jerielizabeth.github.io/">Jeri Wieringa</a>. Turning a table on a website into a CSV file. Part of the useful <a href="http://programminghistorian.org/">Programming Historian</a> set of tutorials.</li>
 <li><a href="http://www.gregreda.com/2014/07/27/scraping-craigslist-for-tickets/">Scraping Craigslist for sold out concert tickets</a> by <a href="https://twitter.com/gjreda">Greg Reda</a>. Using BeautifulSoup to parse HTML. AS a bonus, shows how to send yourself a text from Python, if you use Gmail &amp; AT&amp;T.</li>
 <li><a href="http://nbviewer.ipython.org/url/www.unc.edu/%7Encaren/Lax-1.ipynb.json">Web scraping in Python</a> by <a href="https://twitter.com/haphazardsoc">me</a>. Grabbing lacrosse scores and turning them into a CSV file.</li>
 </ul>
 <p><strong>Data Management</strong></p>
-<p>Going for raw data--numbers of words--to Xs that can be included in a regression equation is about 80% of the work. There's a lot of data management in the walkthroughs, but I've found a couple of others that show the process quite clearly. <a href="http://pandas.pydata.org/">Pandas</a> is popular and super useful, especially the data frames.</p>
+<p>Going for raw data--numbers of words--to Xs that can be included in a regression equation is about 80% of the work. There&#39;s a lot of data management in the walkthroughs, but I&#39;ve found a couple of others that show the process quite clearly. <a href="http://pandas.pydata.org/">Pandas</a> is popular and super useful, especially the data frames.</p>
 <ul>
 <li><a href="http://www.gregreda.com/2013/10/26/intro-to-pandas-data-structures/">Intro to pandas data structures</a> by <a href="https://twitter.com/gjreda">Greg Reda</a>. A three part tutorial that is a very accessible overview to working with data using Pandas.</li>
 <li><a href="http://blog.yhathq.com/posts/aggregating-and-plotting-time-series-in-python.html">Aggregating &amp; plotting time series in python</a> by yhatq. Basics of managing time series data in Pandas.</li>
-<li><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jgbos/IPython-Notebooks/master/3-pointers%20after%20offensive%20rebounds.ipynb?create=1">College Basketball three pointers</a> by <a href="https://twitter.com/jgbos">Justin Goodwin</a>. Lightly commented guide to analyzing basektaball stats. I'm pretty sure you can download the data yourself using the code in this <a href="https://gist.github.com/gjreda/7175267/">gist</a>.</li>
+<li><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/jgbos/IPython-Notebooks/master/3-pointers%20after%20offensive%20rebounds.ipynb?create=1">College Basketball three pointers</a> by <a href="https://twitter.com/jgbos">Justin Goodwin</a>.
+Lightly commented guide to analyzing basektaball stats. I&#39;m pretty sure you can download the data yourself using the code in this <a href="https://gist.github.com/gjreda/7175267/">gist</a>.</li>
 <li><a href="http://nbviewer.ipython.org/github/fonnesbeck/pytenn2014_tutorial/blob/master/Part%201.%20Data%20Wrangling%20with%20Pandas.ipynb">Data Wrangling with Python</a> by <a href="http://stronginference.com">Chris Fonnsbek</a>. Also includes an overview of NumPy, which you can skim the first time through.</li>
 <li><a href="https://github.com/jvns/pandas-cookbook/blob/master/README.md">Pandas cookbook</a> by <a href="https://twitter.com/b0rk">Julia Evans</a>. Lots of great examples for handling data in Pandas.</li>
 </ul>
 <p><strong>Text Management</strong></p>
-<p>Playing with words. * <a href="https://de.dariah.eu/tatom/">Text Analysis with Topic Models for the Humanities and Social Sciences</a> by <a href="https://ariddell.org">Allen Riddell</a>. A series of tutorials on including <a href="https://de.dariah.eu/tatom/preprocessing.html">preprocessing</a>, computing <a href="https://de.dariah.eu/tatom/working_with_text.html">text similarities</a>, and <a href="https://de.dariah.eu/tatom/feature_selection.html">finding distictive words</a>. * <a href="http://nbviewer.ipython.org/github/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb">A Smattering of NLP in Python</a> by <a href="https://twitter.com/greenbacker">Charlie Greenbacker</a>. The basics of using NTLK to analyze text documents. * <a href="http://nbviewer.ipython.org/gist/trevormunoz/8358810">Using Pandas to Curate Data from the New York Public Library's What's On the Menu? Project</a> by<a href="https://twitter.com/trevormunoz">Trevor Muñoz</a>. People spell potatoes au gratin a lot of different ways. * <a href="http://nbviewer.ipython.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb">Statistical Natural Language Processing in Python or How To Do Things With Words. And Counters. or Everything I Needed to Know About NLP I learned From Sesame Street. Except Kneser-Ney Smoothing. The Count Didn't Cover That.</a> by <a href="http://norvig.com">Peter Norvig</a>. This actually isn't that useful to social scientists, but his code is beautiful. * <a href="http://nbviewer.ipython.org/github/gmonce/datascience/blob/master/src/1%20-%20Yet%20Another%20Python%20Encoding%20Tutorial.ipynb">Yet Another Python Encoding Tutorial</a> by <a href="https://twitter.com/gmonce">Guillermo Moncecchi</a>. Analyzing strings with é or “ in Python 2.7 can be a real pain. * <a href="http://nbviewer.ipython.org/github/gmonce/nltk_parsing/blob/master/1.%20NLTK%20Syntax%20Trees.ipynb">NLTK Syntax Trees</a> by <a href="https://twitter.com/gmonce">Guillermo Moncecchi</a>. Sentence parsing. * <a href="http://blog.yhathq.com/posts/fuzzy-matching-with-yhat.html">Fuzzy Matching with Yhat</a> by <a href="https://www.yhathq.com">yhat</a>. Matching using messy text strings.</p>
+<p>Playing with words.</p>
+<ul>
+<li><a href="https://de.dariah.eu/tatom/">Text Analysis with Topic Models for the Humanities and Social Sciences</a> by <a href="https://ariddell.org">Allen Riddell</a>. A series of tutorials on including <a href="https://de.dariah.eu/tatom/preprocessing.html">preprocessing</a>, computing <a href="https://de.dariah.eu/tatom/working_with_text.html">text similarities</a>, and <a href="https://de.dariah.eu/tatom/feature_selection.html">finding distictive words</a>.</li>
+<li><a href="http://nbviewer.ipython.org/github/charlieg/A-Smattering-of-NLP-in-Python/blob/master/A%20Smattering%20of%20NLP%20in%20Python.ipynb">A Smattering of NLP in Python</a> by <a href="https://twitter.com/greenbacker">Charlie Greenbacker</a>. The basics of using NTLK to analyze text documents.</li>
+<li><a href="http://nbviewer.ipython.org/gist/trevormunoz/8358810">Using Pandas to Curate Data from the New York Public Library&#39;s What&#39;s On the Menu? Project</a> by<a href="https://twitter.com/trevormunoz">Trevor Muñoz</a>. People spell potatoes au gratin a lot of different ways.</li>
+<li><a href="http://nbviewer.ipython.org/url/norvig.com/ipython/How%20to%20Do%20Things%20with%20Words.ipynb">Statistical Natural Language Processing in Python or How To Do Things With Words. And Counters. or  Everything I Needed to Know About NLP I learned From Sesame Street. Except Kneser-Ney Smoothing. The Count Didn&#39;t Cover That.</a> by <a href="http://norvig.com">Peter Norvig</a>. This actually isn&#39;t that useful to social scientists, but his code is beautiful.</li>
+<li><a href="http://nbviewer.ipython.org/github/gmonce/datascience/blob/master/src/1%20-%20Yet%20Another%20Python%20Encoding%20Tutorial.ipynb">Yet Another Python Encoding Tutorial</a> by <a href="https://twitter.com/gmonce">Guillermo Moncecchi</a>. Analyzing strings with é or  “ in Python 2.7 can be a real pain.</li>
+<li><a href="http://nbviewer.ipython.org/github/gmonce/nltk_parsing/blob/master/1.%20NLTK%20Syntax%20Trees.ipynb">NLTK Syntax Trees</a> by <a href="https://twitter.com/gmonce">Guillermo Moncecchi</a>. Sentence parsing.</li>
+<li><a href="http://blog.yhathq.com/posts/fuzzy-matching-with-yhat.html">Fuzzy Matching with Yhat</a> by <a href="https://www.yhathq.com">yhat</a>. Matching using messy text strings.</li>
+</ul>
 <p><strong>Introduction to data analysis</strong></p>
 <p>Introductions and/or overviews of data analysis, usually using <a href="http://scikit-learn.org/stable/">scikit-learn</a>.</p>
 <ul>
-<li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/03_basic_principles.ipynb">Basic principles of machine learning</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a> An introduction to <a href="http://scikit-learn.org/stable/">scikit-learn</a>, the most popular machine learning library in Python. It's really great.</li>
+<li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/03_basic_principles.ipynb">Basic principles of machine learning</a>  by <a href="http://www.vanderplas.com/">Jake Vanderplas</a> An introduction to <a href="http://scikit-learn.org/stable/">scikit-learn</a>, the most popular machine learning library in Python. It&#39;s really great. </li>
 <li><a href="http://nbviewer.ipython.org/github/tdhopper/Research-Triangle-Analysts--Intro-to-scikit-learn/blob/master/Intro%20to%20Scikit-Learn.ipynb">Introduction to Scikit-Learn</a> by <a href="https://twitter.com/tdhopper">Tim Hopper</a>. This introduction assumes a modest level of familiarity with Python.</li>
-<li><a href="http://nbviewer.ipython.org/gist/nealcaren/5105037">Using Python to see how the Times writes about men and women</a> by <a href="https://twitter.com/haphazardsoc">me</a>. Basics of using work counts.</li>
-<li><a href="http://nbviewer.ipython.org/github/danhillreports/dailyactivity/blob/master/analysis.ipynb">Analyzing police daily activity logs</a> by <a href="http://danhillreports.com">Dan Hill</a>. Desciptive statistics.</li>
-<li><a href="http://nbviewer.ipython.org/github/rjtavares/football-crunching/blob/master/notebooks/an%20exploratory%20data%20analysis%20of%20the%20world%20cup%20final.ipynb">An exploratory statistical analysis of the 2014 World Cup Final</a> by <a href="https://github.com/rjtavares">Ricardo Tavares</a>. Analysis of play-by-play data with some nifty visualizations.</li>
+<li><a href="http://nbviewer.ipython.org/gist/nealcaren/5105037">Using Python to see how the Times writes about men and women</a> by <a href="https://twitter.com/haphazardsoc">me</a>. Basics of using work counts. </li>
+<li><a href="http://nbviewer.ipython.org/github/danhillreports/dailyactivity/blob/master/analysis.ipynb">Analyzing police daily activity logs</a> by <a href="http://danhillreports.com">Dan Hill</a>. Desciptive statistics. </li>
+<li><a href="http://nbviewer.ipython.org/github/rjtavares/football-crunching/blob/master/notebooks/an%20exploratory%20data%20analysis%20of%20the%20world%20cup%20final.ipynb">An exploratory statistical analysis of the 2014 World Cup Final</a> by <a href="https://github.com/rjtavares">Ricardo Tavares</a>. Analysis of play-by-play data with some nifty visualizations. </li>
 </ul>
 <p><strong>Classification</strong></p>
-<p>When the outcome variable is categorical. Social scientists usually start and stop with variations on logistic regression. Turns out, there's a lot of other things out there.</p>
+<p>When the outcome variable is categorical. Social scientists usually start and stop with variations on logistic regression. Turns out, there&#39;s a lot of other things out there.</p>
 <ul>
 <li><a href="http://nbviewer.ipython.org/github/jgbos/iPython-Notebooks/blob/master/Cold%20Weather%20FG.ipynb">Predicting NFL Field Goal Percentages</a> by <a href="https://twitter.com/jgbos">Justin Goodwin</a>. Using Pandas and the scikit-learn Random Forests classifier.</li>
 <li><a href="http://nbviewer.ipython.org/github/treycausey/thespread/blob/master/notebooks/basic_random_forest_wp_model.ipynb?create=1">Basic Random Forest Model</a> by <a href="https://twitter.com/treycausey">Trey Causey</a>. Minimally commented but clear code for using Pandas and scikit-learn to analyze in-game NFL win probabilities.</li>
 <li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/04_supervised_in_depth.ipynb">Supervised Learning In-Depth: SVMs and Random Forests</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a></li>
-<li><a href="http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/blob/master/Chapter%202%20-%20Supervised%20Learning%20-%20Text%20Classification%20with%20Naive%20Bayes.ipynb">Text Classification with Naïve Bayes</a> by <a href="https://twitter.com/gmonce">Guillermo Moncecchi</a>. Python code from the second chapter of <a href="http://www.packtpub.com/learning-scikit-learn-machine-in-python/book">Learning scikit-learn: machine learning in Python</a>.</li>
-<li><a href="http://nbviewer.ipython.org/github/ClickSecurity/data_hacking/blob/master/dga_detection/DGA_Domain_Detection.ipynb">Exercise to detect Algorithmically Generated Domain Names</a> by <a href="https://github.com/ClickSecurity">Click Security</a>. Text classification of a single string, so it uses lots of tricks besides word frequencies.</li>
+<li><a href="http://nbviewer.ipython.org/github/gmonce/scikit-learn-book/blob/master/Chapter%202%20-%20Supervised%20Learning%20-%20Text%20Classification%20with%20Naive%20Bayes.ipynb">Text Classification with Naïve Bayes</a> by <a href="https://twitter.com/gmonce">Guillermo Moncecchi</a>. Python code from the second chapter of <a href="http://www.packtpub.com/learning-scikit-learn-machine-in-python/book">Learning scikit-learn: machine learning in Python</a>. </li>
+<li><a href="http://nbviewer.ipython.org/github/ClickSecurity/data_hacking/blob/master/dga_detection/DGA_Domain_Detection.ipynb">Exercise to detect Algorithmically Generated Domain Names</a>
+by <a href="https://github.com/ClickSecurity">Click Security</a>. Text classification of a single string, so it uses lots of tricks besides word frequencies. </li>
 <li><a href="http://nbviewer.ipython.org/github/rosariomgomez/fashion/blob/master/twitter/twitter_classifier.ipynb">Are you talking fashion? Building a fashion classifier for Twitter data</a> by <a href="http://www.rosariomgomez.me">Rosario Gomez</a>. From collecting Twitter data with Tweepy to analyzing the text using scikit-learn.</li>
 </ul>
 <p><strong>Unsupervised Learning</strong></p>
-<p>When you don't have an outcome variable and/or want to combine your explanatory variables. Sociologists usually learn about factor analysis and then never use it. For text data, topic modeling is what all the cools are doing.</p>
+<p>When you don&#39;t have an outcome variable and/or want to combine your explanatory variables. Sociologists usually learn about factor analysis and then never use it. For text data, topic modeling is what all the cools are doing.</p>
 <ul>
-<li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/05_unsupervised_in_depth.ipynb">Unsupervised Learning In-depth: PCA and K-Means</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>.</li>
-<li><a href="https://de.dariah.eu/tatom/topic_model_mallet.html">Topic modeling with MALLET</a> by <a href="https://ariddell.org">Allen Riddell</a>. Using Python and <a href="http://mallet.cs.umass.edu">mallet</a> to generate topic models of text.</li>
-<li><a href="https://de.dariah.eu/tatom/topic_model_python.html">Topic modeling in Python</a> by <a href="https://ariddell.org">Allen Riddell</a>. It isn't the standard LDA topic modeling algorithm, but it's close and it's in scikit-learn.</li>
-<li><a href="http://nbviewer.ipython.org/github/ogrisel/notebooks/blob/master/nmf_topics.ipynb?create=1">Topics extraction with Non-Negative Matrix Factorization</a> by <a href="https://twitter.com/ogrisel">Oliver Grisel</a>. More on NMF for topic modeling text. <strong>Regression</strong></li>
+<li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/05_unsupervised_in_depth.ipynb">Unsupervised Learning In-depth: PCA and K-Means</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. </li>
+<li><a href="https://de.dariah.eu/tatom/topic_model_mallet.html">Topic modeling with MALLET</a> by <a href="https://ariddell.org">Allen Riddell</a>. Using Python and <a href="http://mallet.cs.umass.edu">mallet</a> to generate topic models of text. </li>
+<li><a href="https://de.dariah.eu/tatom/topic_model_python.html">Topic modeling in Python</a> by <a href="https://ariddell.org">Allen Riddell</a>. It isn&#39;t the standard LDA topic modeling algorithm, but it&#39;s close and it&#39;s in scikit-learn. </li>
+<li><a href="http://nbviewer.ipython.org/github/ogrisel/notebooks/blob/master/nmf_topics.ipynb?create=1">Topics extraction with Non-Negative Matrix Factorization</a> by <a href="https://twitter.com/ogrisel">Oliver Grisel</a>. More on NMF for topic modeling text. 
+<strong>Regression</strong></li>
 </ul>
-<p>While continuous outcomes are common in the social sciences, machine learning folks rarely talk about them.</p>
+<p>While continuous outcomes are common in the social sciences, machine learning folks rarely talk about them. </p>
 <ul>
 <li><a href="http://nbviewer.ipython.org/urls/s3.amazonaws.com/datarobotblog/notebooks/multiple_regression_in_python.ipynb">Multiple Regression using Statsmodels</a> by by <a href="http://www.datarobot.com/blog/">DataRobot</a>. The stuff you already know how to do but this time in Python.</li>
 <li><a href="http://nbviewer.ipython.org/urls/s3.amazonaws.com/datarobotblog/notebooks/gbm-tutorial.ipynb">Gradient Boosted Regression Trees</a> by <a href="http://www.datarobot.com/blog/">DataRobot</a>. Scikit-learn analysis of a continuous outcome measure.</li>
 </ul>
 <p><strong>Model/Feature Selection</strong></p>
-<p>Picking which model or variables to use often happens offstage in social science research. It doesn't have to be that way, though.</p>
+<p>Picking which model or variables to use often happens offstage in social science research. It doesn&#39;t have to be that way, though.</p>
 <ul>
-<li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/06_validation.ipynb">Machine Learning with Scikit-Learn: Validation and Model Selection</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. Evaluating and improving your scikit-learn models.</li>
+<li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/06_validation.ipynb">Machine Learning with Scikit-Learn: Validation and Model Selection</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. Evaluating and improving your scikit-learn models. </li>
 <li><a href="http://nbviewer.ipython.org/gist/sarguido/8969894">Testing and Validation in Scikit-Learn</a> by <a href="https://twitter.com/sarah_guido">Sarah Guido</a>. Short and to the point.</li>
 <li><a href="http://nbviewer.ipython.org/github/treycausey/thespread/blob/master/notebooks/feature_selection.ipynb?create=1">Feature</a> by <a href="https://twitter.com/treycausey">Trey Causey</a>. Minimally commented but clear code for using Pandas and scikit-learn to find most important features.</li>
 </ul>
 <p><strong>Networks</strong></p>
-<p><a href="http://networkx.github.io">NetworkX</a> and <a href="http://igraph.sourceforge.net">igraph</a> are both fairly powerful tools for network analysis. I don't think you can use them for regression analysis, but you can use them to do things like compute centrality measures and make pretty pictures. You can also use Python to create/manipulate your network data for analysis/display elsewhere.</p>
+<p><a href="http://networkx.github.io">NetworkX</a> and <a href="http://igraph.sourceforge.net">igraph</a> are both fairly powerful tools for network analysis. I don&#39;t think you can use them for regression analysis, but  you can use them to do things like compute centrality measures and make pretty pictures. You can also use Python to create/manipulate your network data for analysis/display elsewhere.   </p>
 <ul>
-<li><a href="http://graphlab.com/learn/notebooks/graph_analytics_movies.html">Six Degrees of Kevin Bacon</a> by Brian Kent. A classic example of network analysis using NetworkX.</li>
+<li><a href="http://graphlab.com/learn/notebooks/graph_analytics_movies.html">Six Degrees of Kevin Bacon</a> by Brian Kent. A classic example of network analysis using NetworkX. </li>
 <li><a href="http://nbviewer.ipython.org/github/furukama/IPythonNotebooks/blob/master/Building%20a%20Foursquare%20Location%20Graph.ipynb">Building a Foursquare Location Graph</a> by <a href="https://twitter.com/furukama">Benedikt Koehler</a>. Using the FourSquare API to find related venues and then graph them as a network using NetworkX.</li>
-<li><a href="http://nbviewer.ipython.org/github/ellisonbg/talk-strata2013/blob/master/TwitterNetworkX.ipynb">Analysis of Twitter stream data with the IPython Notebook</a> by <a href="https://twitter.com/ellisonbg">Brian Granger</a>. Words as nodes in a network analysis of Twitter data.</li>
+<li><a href="http://nbviewer.ipython.org/github/ellisonbg/talk-strata2013/blob/master/TwitterNetworkX.ipynb">Analysis of Twitter stream data with the IPython Notebook</a> by <a href="https://twitter.com/ellisonbg">Brian Granger</a>. Words as nodes in a network analysis of Twitter data. </li>
 </ul>
 <p><strong>Plotting</strong></p>
 <p><a href="http://matplotlib.org">matplotlib</a> is the default plotting library for data scientists and plays well with pandas. <a href="http://www.stanford.edu/~mwaskom/software/seaborn/">seaborn</a> makes it prettier. Other programs, like <a href="http://mpld3.github.io">mpld3</a>, <a href="https://plot.ly">Plotly</a>, or <a href="http://bokeh.pydata.org">bokeh</a> are also worth trying out, especially for putting stuff together on the web.</p>
 <ul>
 <li><a href="http://nbviewer.ipython.org/urls/gist.github.com/fonnesbeck/5850463/raw/a29d9ffb863bfab09ff6c1fc853e1d5bf69fe3e4/3.+Plotting+and+Visualization.ipynb">Plotting and Visualization</a> by <a href="http://stronginference.com">Chris Fonnesbeck</a>. Great overview of using matplotlib and pandas.</li>
-<li><a href="http://nbviewer.ipython.org/github/degiere/python-finance-notebooks/blob/master/python-financial-market-data-visualization.ipynb">Financial market data manipulation and visualization with Python</a> by <a href="https://github.com/degiere">Chris Degiere</a>. Basics of plotting time series data in pandas.</li>
-<li><a href="http://nbviewer.ipython.org/github/herrfz/dataanalysis/blob/master/week3/exploratory_graphs.ipynb">Exploratory graphs</a> by <a href="https://github.com/herrfz">herrfz</a> Basic Pandas plots.</li>
-<li><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/olgabot/pycon2014_dataviz/master/pycon2014_dataviz.ipynb">Computational data visualization in Python</a> by <a href="https://twitter.com/olgabot">Olga Botvinnik</a>. Using Seaborn to make pretty graphs from your numbers.</li>
+<li><a href="http://nbviewer.ipython.org/github/degiere/python-finance-notebooks/blob/master/python-financial-market-data-visualization.ipynb">Financial market data manipulation and visualization with Python</a> by <a href="https://github.com/degiere">Chris Degiere</a>. Basics of plotting time series data in pandas. </li>
+<li><a href="http://nbviewer.ipython.org/github/herrfz/dataanalysis/blob/master/week3/exploratory_graphs.ipynb">Exploratory graphs</a> by <a href="https://github.com/herrfz">herrfz</a> Basic Pandas plots. </li>
+<li><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/olgabot/pycon2014_dataviz/master/pycon2014_dataviz.ipynb">Computational data visualization in Python</a> by <a href="https://twitter.com/olgabot">Olga Botvinnik</a>.  Using Seaborn to make pretty graphs from your numbers.</li>
 <li><a href="http://nbviewer.ipython.org/github/cs109/content/blob/master/lec_03_statistical_graphs.ipynb">A Gallery of Statistical Graphs in Matplotlib</a> by <a href="https://github.com/ChrisBeaumont">Chris Beaumont</a>. Pretty and practical examples.</li>
-<li><a href="http://nbviewer.ipython.org/url/mpld3.github.io/_downloads/mpld3_demo.ipynb">Demo of mpld3</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. Interested in making interactive graphics? This is where I would start. Turns your matplotlib code into d3 figures.</li>
-<li><a href="http://nbviewer.ipython.org/gist/msund/10016970">Nine matplotlib figures made in Plotly</a>. Plotly makes excellent interactive graphs which are hosted on their servers.<br />&amp; <a href="http://nbviewer.ipython.org/gist/z-m-k/4484816/ipyD3sample.ipynb">D3 in Python</a> by <a href="https://github.com/z-m-k">z-m-k</a>. Fairly complicated worked examples of an alternate way of producing D3 graphs.</li>
+<li><a href="http://nbviewer.ipython.org/url/mpld3.github.io/_downloads/mpld3_demo.ipynb">Demo of mpld3</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. Interested in making interactive graphics? This is where I would start. Turns your  matplotlib code into d3 figures.</li>
+<li><a href="http://nbviewer.ipython.org/gist/msund/10016970">Nine matplotlib figures made in Plotly</a>. Plotly makes excellent interactive graphs which are hosted on their servers.<br>&amp; <a href="http://nbviewer.ipython.org/gist/z-m-k/4484816/ipyD3sample.ipynb">D3 in Python</a> by <a href="https://github.com/z-m-k">z-m-k</a>. Fairly complicated worked examples of an alternate way of producing D3 graphs.</li>
 <li><a href="http://nbviewer.ipython.org/gist/olgabot/bfe1e3638af3eea52fb1">Hierarchical clustering</a> by <a href="http://www.olgabotvinnik.com">Olga Botvinnik</a>. Pretty heatmaps with seaborn and pandas.</li>
 </ul>
-<p><strong>Images as Data</strong> Social scientists don't really analyze images much, but that might be the next big thing. * <a href="http://blog.yhathq.com/posts/image-processing-with-scikit-image.html">Image Processing with scikit-image</a> by <a href="https://github.com/EricChiang">Eric Chiang</a>. Basics of using photos as data. * <a href="http://nbviewer.ipython.org/github/rosariomgomez/fashion/blob/master/fashion_recommender/images/FashionRecommender_Images.ipynb">Building a fashion recommender</a> by <a href="http://www.rosariomgomez.me">Rosario Gomez</a>. Analyzing pictures of models to extract the colors of the clothes they are wearing. It's really impressive.</p>
+<p><strong>Images as Data</strong></p>
+<p>Social scientists don&#39;t really analyze images much, but that might be the next big thing.</p>
+<ul>
+<li><a href="http://blog.yhathq.com/posts/image-processing-with-scikit-image.html">Image Processing with scikit-image</a> by <a href="https://github.com/EricChiang">Eric Chiang</a>. Basics of using photos as data. </li>
+<li><a href="http://nbviewer.ipython.org/github/rosariomgomez/fashion/blob/master/fashion_recommender/images/FashionRecommender_Images.ipynb">Building a fashion recommender</a> by <a href="http://www.rosariomgomez.me">Rosario Gomez</a>. Analyzing pictures of models to extract the colors of the clothes they are wearing. It&#39;s really impressive. </li>
+</ul>
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[1]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="c">#ignore code below. Imports style sheet for this page.</span>
-
-<span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">HTML</span>
-<span class="k">def</span> <span class="nf">css_styling</span><span class="p">():</span>
-    <span class="n">styles</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">&quot;custom.css&quot;</span><span class="p">,</span> <span class="s">&quot;r&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">HTML</span><span class="p">(</span><span class="n">styles</span><span class="p">)</span>
-<span class="n">css_styling</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[1]:</div>
-
-<div class="output_html rendered_html output_subarea output_pyout">
-<style>
-    @font-face {
-        font-family: "Computer Modern";
-        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-    }
-    div.cell{
-        width:800px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    h1 {
-        font-family: "Computer Modern";
-        
-    }
-    h4{
-        margin-top:12px;
-        margin-bottom: 3px;
-        
-       }
-    div.text_cell_render{
-        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-        line-height: 145%;
-        font-size: 130%;
-        width:800px;
-        margin-left:auto;
-        margin-right:auto;
-                color: #413839;
-
-    }
-    .CodeMirror{
-            font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
-            
-    }
-    .prompt{
-        display: None;
-    }
-    .text_cell_render h5 {
-        font-weight: 300;
-        font-size: 16pt;
-        color: #4057A1;
-        font-style: italic;
-        margin-bottom: .5em;
-        margin-top: 0.5em;
-        display: block;
-    }
-
-    .warning{
-        color: rgb( 240, 20, 20 )
-        }
-
-</style>
-
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;Computational Social Science in Python:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre> 
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div>
     </div>
   </div>
