@@ -1632,14 +1632,14 @@ div#notebook {
   div.cell {
     display: block;
     page-break-inside: avoid;
-  } 
-  div.output_wrapper { 
-    display: block;
-    page-break-inside: avoid; 
   }
-  div.output { 
+  div.output_wrapper {
     display: block;
-    page-break-inside: avoid; 
+    page-break-inside: avoid;
+  }
+  div.output {
+    display: block;
+    page-break-inside: avoid;
   }
 }
 </style>
@@ -1647,28 +1647,7 @@ div#notebook {
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
 <link rel="stylesheet" href="custom.css">
 
-<!-- Loading mathjax macro -->
-<!-- Load mathjax -->
-    <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-            processEscapes: true,
-            processEnvironments: true
-        },
-        // Center justify equations in code and markdown cells. Elsewhere
-        // we use CSS to left justify single line equations in code cells.
-        displayAlign: 'center',
-        "HTML-CSS": {
-            styles: {'.MathJax_Display': {"margin": 0}},
-            linebreaks: { automatic: true }
-        }
-    });
-    </script>
-    <!-- End of mathjax configuration -->
+
 
 </head>
 <body>
@@ -1774,7 +1753,7 @@ by <a href="https://github.com/ClickSecurity">Click Security</a>. Text classific
 <li><a href="http://nbviewer.ipython.org/github/jakevdp/sklearn_pycon2014/blob/master/notebooks/05_unsupervised_in_depth.ipynb">Unsupervised Learning In-depth: PCA and K-Means</a> by <a href="http://www.vanderplas.com/">Jake Vanderplas</a>. </li>
 <li><a href="https://de.dariah.eu/tatom/topic_model_mallet.html">Topic modeling with MALLET</a> by <a href="https://ariddell.org">Allen Riddell</a>. Using Python and <a href="http://mallet.cs.umass.edu">mallet</a> to generate topic models of text. </li>
 <li><a href="https://de.dariah.eu/tatom/topic_model_python.html">Topic modeling in Python</a> by <a href="https://ariddell.org">Allen Riddell</a>. It isn&#39;t the standard LDA topic modeling algorithm, but it&#39;s close and it&#39;s in scikit-learn. </li>
-<li><a href="http://nbviewer.ipython.org/github/ogrisel/notebooks/blob/master/nmf_topics.ipynb?create=1">Topics extraction with Non-Negative Matrix Factorization</a> by <a href="https://twitter.com/ogrisel">Oliver Grisel</a>. More on NMF for topic modeling text. 
+<li><a href="http://nbviewer.ipython.org/github/ogrisel/notebooks/blob/master/nmf_topics.ipynb?create=1">Topics extraction with Non-Negative Matrix Factorization</a> by <a href="https://twitter.com/ogrisel">Oliver Grisel</a>. More on NMF for topic modeling text.
 <strong>Regression</strong></li>
 </ul>
 <p>While continuous outcomes are common in the social sciences, machine learning folks rarely talk about them. </p>
