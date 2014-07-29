@@ -28,8 +28,13 @@
 
     }
     li{ 
-line-height: 250%;
+        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        line-height: 150%;
         font-size: 130%;
+        width:800px;
+        margin-left:auto;
+        margin-right:auto;
+                color: #413839;
 
 }
     .CodeMirror{
