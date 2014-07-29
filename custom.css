@@ -19,7 +19,7 @@
        }
     div.text_cell_render{
         font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-        line-height: 100%;
+        line-height: 150%;
         font-size: 130%;
         width:800px;
         margin-left:auto;
@@ -27,6 +27,11 @@
                 color: #413839;
 
     }
+    li{ 
+line-height: 250%;
+        font-size: 130%;
+
+}
     .CodeMirror{
             font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
             
